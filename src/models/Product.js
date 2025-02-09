@@ -17,6 +17,6 @@ export const Product = sequelize.define("Product", {
   },
   imageUrl: {
     type: DataTypes.STRING,
-    allowNull: true,
+    allowNull: false,
   }
 });
